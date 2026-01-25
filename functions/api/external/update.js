@@ -26,12 +26,12 @@ export const onRequestPost = async (context) => {
 
     try {
         const body = await request.json();
-        const { shopee_item_id, price, stock } = body;
+        const { item_id, price, stock } = body;
 
-        if (!shopee_item_id) {
+        if (!item_id) {
             return new Response(JSON.stringify({
                 success: false,
-                error: 'shopee_item_id is required'
+                error: 'item_id is required'
             }), {
                 status: 400,
                 headers: { 'Content-Type': 'application/json' }
@@ -43,11 +43,11 @@ export const onRequestPost = async (context) => {
         // まずは一般的な名称を試みますが、エラーハンドリングを強化します
         const stmt = env.DB.prepare(`
             UPDATE products 
-            SET price = ?, stock = ?, updated_at = datetime('now')
-            WHERE shopee_item_id = ?
+            SET current_price = ?, stock = ?, updated_at = datetime('now')
+            WHERE item_id = ?
         `);
 
-        const result = await stmt.bind(price, stock, shopee_item_id).run();
+        const result = await stmt.bind(price, stock, item_id).run();
 
         if (result.meta.changes === 0) {
             return new Response(JSON.stringify({

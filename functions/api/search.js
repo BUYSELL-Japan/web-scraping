@@ -29,13 +29,11 @@ export const onRequestPost = async (context) => {
         }
 
         // D1データベースから商品を検索
-        // ユーザーのテーブル構造変更に合わせて、より汎用的なクエリを使用
-        let sql = "SELECT * FROM products WHERE name LIKE ?";
+        let sql = "SELECT * FROM products WHERE item_name LIKE ?";
         const params = [`%${query}%`];
 
-        // statusがactiveのもののみ取得（カラムが存在する場合を想定）
-        // ※ 存在しない場合はエラーになる可能性があるが、types.d.tsに基づき実装
-        sql += " AND (status = 'active' OR status IS NULL)";
+        // item_statusが正常なもののみ（物理名は item_status でした）
+        sql += " AND (item_status = 'NORMAL' OR item_status IS NULL)";
 
         sql += " ORDER BY updated_at DESC LIMIT 50";
 
@@ -44,21 +42,19 @@ export const onRequestPost = async (context) => {
 
         // フロントエンド (App.jsx) が期待する形式にデータを変換（マッピング）
         const mappedProducts = results.results.map(p => {
-            // ShopeeのURL生成ロジック（urlカラムがない場合のフォールバック）
-            let url = p.url || '';
-            if (!url && p.shop_id && p.shopee_item_id) {
-                // shop_idから国を推測するのは難しいため、一旦台湾をデフォルトにするか
-                // 実際には同期時にurlを保存するのが理想的
-                url = `https://shopee.tw/product/${p.shop_id}/${p.shopee_item_id}`;
+            // ShopeeのURL生成ロジック（物理名は source_url または item_id/shop_id から生成）
+            let url = p.source_url || '';
+            if (!url && p.shop_id && p.item_id) {
+                url = `https://shopee.tw/product/${p.shop_id}/${p.item_id}`;
             }
 
             return {
-                id: p.shopee_item_id || p.id.toString(),
-                title: p.name || '',
-                price: p.price || 0,
+                id: p.item_id || p.id.toString(),
+                title: p.item_name || '',
+                price: p.current_price || 0,
                 imageUrl: p.image_url || '',
                 url: url,
-                source: p.source || 'shopee-tw', // D1は現状Shopeeのみを想定
+                source: 'shopee-tw', // ソースカラムがないため固定
                 currency: p.currency || 'TWD',
                 updated_at: p.updated_at
             };

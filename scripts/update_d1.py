@@ -5,12 +5,12 @@ import json
 API_URL = "https://web-scraping.pages.dev/api/external/update"  # 実際のデプロイURLが異なる場合は修正してください
 API_KEY = "toa_secret_2026"  # Cloudflareで設定した環境変数と同じ値を入力
 
-def update_product_price(shopee_item_id, price, stock):
+def update_product_price(item_id, price, stock):
     """
     Cloudflare D1の製品情報を更新する
     """
     payload = {
-        "shopee_item_id": shopee_item_id,
+        "item_id": item_id,
         "price": price,
         "stock": stock
     }
