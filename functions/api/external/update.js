@@ -39,6 +39,8 @@ export const onRequestPost = async (context) => {
         }
 
         // 商品が存在するか確認しつつ更新
+        // 文脈から、実際のカラム名が price ではない可能性があるため
+        // まずは一般的な名称を試みますが、エラーハンドリングを強化します
         const stmt = env.DB.prepare(`
             UPDATE products 
             SET price = ?, stock = ?, updated_at = datetime('now')
@@ -65,9 +67,18 @@ export const onRequestPost = async (context) => {
         });
 
     } catch (error) {
+        let columns = [];
+        try {
+            const schema = await env.DB.prepare("PRAGMA table_info(products)").all();
+            columns = schema.results.map(c => c.name);
+        } catch (sError) {
+            columns = ["Could not retrieve schema"];
+        }
+
         return new Response(JSON.stringify({
             success: false,
-            error: error.message
+            error: error.message,
+            available_columns: columns
         }), {
             status: 500,
             headers: { 'Content-Type': 'application/json' }

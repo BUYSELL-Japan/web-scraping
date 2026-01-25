@@ -2,8 +2,8 @@ import requests
 import json
 
 # 設定
-API_URL = "https://your-project.pages.dev/api/external/update"  # 実際のデプロイURLに書き換えてください
-API_KEY = "YOUR_EXTERNAL_API_KEY"  # Cloudflareで設定した環境変数と同じ値を入力
+API_URL = "https://web-scraping.pages.dev/api/external/update"  # 実際のデプロイURLが異なる場合は修正してください
+API_KEY = "toa_secret_2026"  # Cloudflareで設定した環境変数と同じ値を入力
 
 def update_product_price(shopee_item_id, price, stock):
     """
@@ -20,7 +20,7 @@ def update_product_price(shopee_item_id, price, stock):
         "X-API-KEY": API_KEY
     }
     
-    try {
+    try:
         response = requests.post(API_URL, data=json.dumps(payload), headers=headers)
         
         if response.status_code == 200:
