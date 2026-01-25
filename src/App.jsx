@@ -4,6 +4,7 @@ import ProductList from './components/ProductList'
 import PriceStats from './components/PriceStats'
 import EditModal from './components/EditModal'
 import Dashboard from './components/Dashboard'
+import ScrapingPreview from './components/ScrapingPreview'
 
 function App() {
     const [products, setProducts] = useState([])
@@ -12,6 +13,7 @@ function App() {
     const [editingProduct, setEditingProduct] = useState(null)
     const [toasts, setToasts] = useState([])
     const [showDashboard, setShowDashboard] = useState(false)
+    const [showPreview, setShowPreview] = useState(false)
 
     const addToast = useCallback((message, type = 'success') => {
         const id = Date.now()
@@ -114,6 +116,13 @@ function App() {
                     <h1>🎭 フィギュア価格比較ツール</h1>
                     <p>AmazonとShopeeの相場価格を一括検索</p>
                     <button
+                        className="btn btn-secondary"
+                        onClick={() => setShowPreview(!showPreview)}
+                        style={{ marginRight: '0.5rem' }}
+                    >
+                        📋 プレビュー
+                    </button>
+                    <button
                         className="btn btn-secondary dashboard-btn"
                         onClick={() => setShowDashboard(true)}
                     >
@@ -122,6 +131,13 @@ function App() {
                 </header>
 
                 <SearchForm onSearch={handleSearch} loading={loading} />
+
+                {showPreview && (
+                    <ScrapingPreview onUpdateComplete={() => {
+                        setShowPreview(false);
+                        // 検索結果をリフレッシュする場合はここで何か処理
+                    }} />
+                )}
 
                 {products.length > 0 && (
                     <div className="results-control">

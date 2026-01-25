@@ -2,17 +2,18 @@ import requests
 import json
 
 # 設定
-API_URL = "https://web-scraping.pages.dev/api/external/update"  # 実際のデプロイURLが異なる場合は修正してください
-API_KEY = "toa_secret_2026"  # Cloudflareで設定した環境変数と同じ値を入力
+API_URL = "https://web-scraping.pages.dev/api/external/preview"  # プレビュー用エンドポイント
+API_KEY = "toa_secret_2026"
 
-def update_product_price(item_id, price, stock):
+def send_to_preview(item_id, price, stock, item_name=None):
     """
-    Cloudflare D1の製品情報を更新する
+    Cloudflareのプレビューエリアにスクレイピング結果を送信する
     """
     payload = {
         "item_id": item_id,
         "price": price,
-        "stock": stock
+        "stock": stock,
+        "item_name": item_name
     }
     
     headers = {
@@ -24,12 +25,10 @@ def update_product_price(item_id, price, stock):
         response = requests.post(API_URL, data=json.dumps(payload), headers=headers)
         
         if response.status_code == 200:
-            print(f"✅ Success: Updated Item {shopee_item_id}")
+            print(f"✅ Staged: {item_id} (Check your dashboard preview)")
             return response.json()
         elif response.status_code == 401:
             print("❌ Error: Unauthorized - Check your API_KEY")
-        elif response.status_code == 404:
-            print(f"❌ Error: Product {shopee_item_id} not found in database")
         else:
             print(f"❌ Error {response.status_code}: {response.text}")
             
@@ -40,12 +39,12 @@ def update_product_price(item_id, price, stock):
 
 # 使用例
 if __name__ == "__main__":
-    # テスト用の更新データ
-    # 実際にはスクレイピングしたデータをここで渡します
+    # テスト用のスクレイピング結果
     test_item_id = "123456789"
     new_price = 1500
     new_stock = 10
+    test_name = "テスト用フィギュア商品"
     
-    result = update_product_price(test_item_id, new_price, new_stock)
+    result = send_to_preview(test_item_id, new_price, new_stock, test_name)
     if result:
         print(result)
