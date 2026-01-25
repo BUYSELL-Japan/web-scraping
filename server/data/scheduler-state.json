@@ -1,0 +1,700 @@
+{
+  "isRunning": false,
+  "startTime": "2026-01-23T04:51:18.842Z",
+  "currentProductIndex": 1,
+  "currentSearchCount": 3,
+  "totalSearchesToday": 3,
+  "productList": [
+    "初音ミク　フィギュア",
+    "鬼滅の刃　フィギュア",
+    "呪術廻戦　フィギュア"
+  ],
+  "results": [
+    {
+      "productName": "初音ミク　 呪術廻戦　鬼滅の刃　僕のヒーローアカデミア　フィギュア",
+      "averagePrice": 9196,
+      "minPrice": 1636,
+      "maxPrice": 23389,
+      "searchCount": 10,
+      "cheapestUrl": "https://www.amazon.co.jp",
+      "cheapestTitle": "Hello! Good Smile My Hero Academia Ochako Rinichi, Non-scale, Plastic, Pre-painted Action Figure",
+      "products": [
+        {
+          "id": "0bbd8628-cc9f-404d-8e2c-5bbcdac2085d",
+          "title": "TV Anime \"My Hero Academia\" Shoto Todoroki Short Ver. 1/7 Scale Plastic Painted and Finished Figure",
+          "description": "",
+          "price": 23389,
+          "imageUrl": "https://m.media-amazon.com/images/I/71kwSqDOTKL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "16644b32-28b3-4391-977b-1672385ad2d9",
+          "title": "SEGA-Luminasta Jujutsu Kaisen Luminasta Gojo Satoru Massacre Figure, Approximately 10.2 inches (26 cm)",
+          "description": "",
+          "price": 2761,
+          "imageUrl": "https://m.media-amazon.com/images/I/51hsjKc576L._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "a1c69b8f-22bc-48ee-a83b-3e6ebfc76930",
+          "title": "Hello! Good Smile My Hero Academia Ochako Rinichi, Non-scale, Plastic, Pre-painted Action Figure",
+          "description": "",
+          "price": 1636,
+          "imageUrl": "https://m.media-amazon.com/images/I/51cEGsJTZTL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "1a3065f3-277c-4115-8ec4-4cc4345898d3",
+          "title": "TV Anime \"My Hero Academia\" Shoto Todoroki Short Ver. 1/7 Scale Plastic Painted and Finished Figure",
+          "description": "",
+          "price": 23389,
+          "imageUrl": "https://m.media-amazon.com/images/I/71kwSqDOTKL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "5f3b3da4-3425-457c-a0da-ce81d48041f5",
+          "title": "Sega Luminasta Magical Warfare Kunumaki Barb",
+          "description": "",
+          "price": 5353,
+          "imageUrl": "https://m.media-amazon.com/images/I/51d2aJZ1A-L._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "df048097-9d25-4015-bfc9-20adebeb285c",
+          "title": "SEGA-Luminasta Jujutsu Kaisen Luminasta Gojo Satoru Massacre Figure, Approximately 10.2 inches (26 cm)",
+          "description": "",
+          "price": 2761,
+          "imageUrl": "https://m.media-amazon.com/images/I/51hsjKc576L._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "963a3111-7362-4827-9d77-2991ec6f4cd0",
+          "title": "Banpresto Magical Battle Super Complete Figure",
+          "description": "",
+          "price": 4880,
+          "imageUrl": "https://m.media-amazon.com/images/I/51gcBkXcSAL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "99d79080-83f7-4be6-9109-5324c84d8e28",
+          "title": "TV Anime \"My Hero Academia\" Shoto Todoroki Short Ver. 1/7 Scale Plastic Painted and Finished Figure",
+          "description": "",
+          "price": 23389,
+          "imageUrl": "https://m.media-amazon.com/images/I/71kwSqDOTKL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "158bba00-abca-4c5e-9ba6-c8f9d947b529",
+          "title": "SEGA-Luminasta Jujutsu Kaisen Luminasta Gojo Satoru Massacre Figure, Approximately 10.2 inches (26 cm)",
+          "description": "",
+          "price": 2761,
+          "imageUrl": "https://m.media-amazon.com/images/I/51hsjKc576L._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "ecebc1a9-9c84-4b71-a02e-0a4b4e39336f",
+          "title": "Hello! Good Smile My Hero Academia Ochako Rinichi, Non-scale, Plastic, Pre-painted Action Figure",
+          "description": "",
+          "price": 1636,
+          "imageUrl": "https://m.media-amazon.com/images/I/51cEGsJTZTL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        }
+      ],
+      "timestamp": "2026-01-22T11:31:29.884Z"
+    },
+    {
+      "productName": "初音ミク フィギュア",
+      "averagePrice": 6555,
+      "minPrice": 2059,
+      "maxPrice": 32800,
+      "searchCount": 15,
+      "cheapestUrl": "https://www.amazon.co.jp",
+      "cheapestTitle": "Gundam 45th Anniversary x Hatsune Miku BANPRESTO EVOLVE-GUNDAM Collaboration Figure",
+      "products": [
+        {
+          "id": "f403bb07-9958-4258-ae39-1f0f0d40969a",
+          "title": "Hatsune Miku Desktop Decoration Figure, Deck Vs Series, PVC, Movable, Total Height Approx. 2.0 inches (5 cm), DIY Scene (Random 1 Piece)",
+          "description": "",
+          "price": 3999,
+          "imageUrl": "https://m.media-amazon.com/images/I/614FukgP1CL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "2f69d660-5633-41c2-95fa-c7d7f1f5aba4",
+          "title": "Hatsune Miku Figure Hatsune Miku Fashion Figure Outdoor [Official]",
+          "description": "",
+          "price": 4780,
+          "imageUrl": "https://m.media-amazon.com/images/I/6141S158kVL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "351815cc-c5ce-412b-810b-1f6199ddb53f",
+          "title": "Hatsune 'Miku Noodle Stopper Figure, Flower Fairy White Rose, Official, Approx. 5.5 inches (14 cm)",
+          "description": "",
+          "price": 2480,
+          "imageUrl": "https://m.media-amazon.com/images/I/41QCcEY4LTL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "422073a7-b150-4652-a817-e916a33ebb39",
+          "title": "Fluyu AMU-TNL0147 Desktop Fairy Hatsune Miku in Wonderland Version, Total Height Approx. 6.3 inches (160 mm), Non-scale, Plastic, Painted and Assembled Figure",
+          "description": "",
+          "price": 2920,
+          "imageUrl": "https://m.media-amazon.com/images/I/51Mk62Cql-L._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "73116a72-d8f8-46e7-a3ee-60ee0a5aa614",
+          "title": "Hatsune Miku Nendoroid Stopper Figure Vintage Doll",
+          "description": "",
+          "price": 4677,
+          "imageUrl": "https://m.media-amazon.com/images/I/61VODVIWyvL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "cc8bcb63-ef21-4816-a809-86f46c6839d5",
+          "title": "Fluyu AMU-TNL0147 Desktop Fairy Hatsune Miku in Wonderland Version, Total Height Approx. 6.3 inches (160 mm), Non-scale, Plastic, Painted and Assembled Figure",
+          "description": "",
+          "price": 2920,
+          "imageUrl": "https://m.media-amazon.com/images/I/51Mk62Cql-L._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "4a7c037b-1b14-4745-bc9d-d2a77c41acaf",
+          "title": "Hatsune Miku Nendoroid Stopper Figure Vintage Doll",
+          "description": "",
+          "price": 4677,
+          "imageUrl": "https://m.media-amazon.com/images/I/61VODVIWyvL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "88fabcd4-26a1-4d42-bf86-4eeb3cf2d169",
+          "title": "Hatsune Miku Trio-Try-iT Figure Yuuki Miku x Kuromi Figure, Official",
+          "description": "",
+          "price": 4800,
+          "imageUrl": "https://m.media-amazon.com/images/I/512Bl8nkR-L._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "cd99805a-8f29-43ed-9794-b0519713962f",
+          "title": "Gundam 45th Anniversary x Hatsune Miku BANPRESTO EVOLVE-GUNDAM Collaboration Figure",
+          "description": "",
+          "price": 2059,
+          "imageUrl": "https://m.media-amazon.com/images/I/41IEoKlLxrL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "ca233d87-be80-4cd1-9bd6-927e0f53928f",
+          "title": "Good Smile Racing figma Hatsune Miku GT Project Racing Miku 2025 Version Non-Scale Plastic Painted Action Figure",
+          "description": "",
+          "price": 11731,
+          "imageUrl": "https://m.media-amazon.com/images/I/61O-EotsFkL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "a26be1e6-1a14-4e37-845e-09f6fc23bd1b",
+          "title": "Fluyu AMU-TNL0147 Desktop Fairy Hatsune Miku in Wonderland Version, Total Height Approx. 6.3 inches (160 mm), Non-scale, Plastic, Painted and Assembled Figure",
+          "description": "",
+          "price": 2920,
+          "imageUrl": "https://m.media-amazon.com/images/I/51Mk62Cql-L._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "0318874a-3c70-43f8-bc48-a4123b8a87a9",
+          "title": "グッドスマイルカンパニー[GOOD SMILE COMPANY] ねんどろいど キャラクター・ボーカル・シリーズ01 初音ミク 初音ミク LAWSON 50th Anniversary Special LIVE Ver. ノンスケール プラスチック製 塗装済み可動フィギュア",
+          "description": "",
+          "price": 8078,
+          "imageUrl": "https://m.media-amazon.com/images/I/619wgOpbw1L._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "843093dc-c35a-452a-ab96-9c5ea8649fdd",
+          "title": "Hatsune Miku Nendoroid Stopper Figure Vintage Doll",
+          "description": "",
+          "price": 4677,
+          "imageUrl": "https://m.media-amazon.com/images/I/61VODVIWyvL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "0430cb7d-09a1-4b3d-b3f5-b8f017483156",
+          "title": "Hatsune Miku Trio-Try-iT Figure Yuuki Miku x Kuromi Figure, Official",
+          "description": "",
+          "price": 4800,
+          "imageUrl": "https://m.media-amazon.com/images/I/512Bl8nkR-L._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "819a927b-1eef-43e9-8edb-818f2afd0028",
+          "title": "Character Vocal Series 01 Hatsune Miku Hatsune Miku feat. Yoneyama Mai 1/7 Scale Plastic Pre-painted Finished Figure",
+          "description": "",
+          "price": 32800,
+          "imageUrl": "https://m.media-amazon.com/images/I/61rKEaa9jRL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        }
+      ],
+      "timestamp": "2026-01-22T12:03:02.140Z"
+    },
+    {
+      "productName": "呪術廻戦 フィギュア",
+      "averagePrice": 3359,
+      "minPrice": 1200,
+      "maxPrice": 8970,
+      "searchCount": 15,
+      "cheapestUrl": "https://www.amazon.co.jp",
+      "cheapestTitle": "A3 Magic Warfare 21 Anime War Exhibition [Hanami] Satoru Gojo Character Acrylic Figure",
+      "products": [
+        {
+          "id": "7f97c734-8700-4fe4-afff-2e67d2ceb2c1",
+          "title": "A3 Magic Warfare 21 Anime War Exhibition [Hanami] Satoru Gojo Character Acrylic Figure",
+          "description": "",
+          "price": 1200,
+          "imageUrl": "https://m.media-amazon.com/images/I/31j7Q7YbUuL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "cb9ea95d-cdaa-4254-a806-3508b0ca9014",
+          "title": "Magical Spiral Action Figurizmα \"Kurophe\" Figurine",
+          "description": "",
+          "price": 2870,
+          "imageUrl": "https://m.media-amazon.com/images/I/71r85A5PeyL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "ad96077f-0e3c-4928-957d-d482cab74598",
+          "title": "King of Artist Suguru Geto, Kaitama Gyokori II Summer Aburajie Figure",
+          "description": "",
+          "price": 2270,
+          "imageUrl": "https://m.media-amazon.com/images/I/814AKqlEU4L._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "feefcc5a-8266-4b4d-b751-ceb80ec6bbdc",
+          "title": "SEGA-FIGURIZMα Jujutsu Kaisen \"Choso\" Sekirin Yakudō Sai Figure",
+          "description": "",
+          "price": 2737,
+          "imageUrl": "https://m.media-amazon.com/images/I/71H-s8DVV5L._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "e2074afd-ceba-40cf-8bc3-04d77aee3f8f",
+          "title": "Magical * Guru Luminasta Gojo \"Yu\" Figure",
+          "description": "",
+          "price": 4380,
+          "imageUrl": "https://m.media-amazon.com/images/I/51bP29Yf0DL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "365a98bc-f36b-4a4a-830c-2b054781b5eb",
+          "title": "SEGA-FIGURIZMα Jujutsu Kaisen \"Choso\" Sekirin Yakudō Sai Figure",
+          "description": "",
+          "price": 2737,
+          "imageUrl": "https://m.media-amazon.com/images/I/71H-s8DVV5L._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "c80d500d-fae6-4468-a05a-5a0645b52d0b",
+          "title": "Magical * Guru Luminasta Gojo \"Yu\" Figure",
+          "description": "",
+          "price": 4380,
+          "imageUrl": "https://m.media-amazon.com/images/I/51bP29Yf0DL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "4a7c3c00-0613-4c49-ae11-fffb0e10ac1a",
+          "title": "バンプレスト 呪術廻戦 五条悟(ver.A) キングオブアーティストフィギュア KING OF ARTIST GOJO SPECIAL ver.",
+          "description": "",
+          "price": 2999,
+          "imageUrl": "https://m.media-amazon.com/images/I/41hR4qa9GUL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "fdcf0273-c586-43e9-a47b-9369ff2de1f9",
+          "title": "【YAORUI】Yuta Okkotsu Rikako Inohana Figure Jujutsu Kaisen Zero Popular Character Cool 29cm Pure Love Room Decoration Collectible Prize Souvenir Event Birthday Christmas Present Surrounding Support Moe",
+          "description": "",
+          "price": 8970,
+          "imageUrl": "https://m.media-amazon.com/images/I/61V3btEhTiL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "4795930d-197b-4250-9c26-b7ac025d917f",
+          "title": "MegaHouse Petit Rama Series Jujutsu Kaisen Tabletop Domain Expansion No. 1 4-Piece Box",
+          "description": "",
+          "price": 1980,
+          "imageUrl": "https://m.media-amazon.com/images/I/51+LfK2dI9L._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "3931ab5d-c979-49dc-821b-72b8c3fd9f4f",
+          "title": "SEGA-FIGURIZMα Jujutsu Kaisen \"Choso\" Sekirin Yakudō Sai Figure",
+          "description": "",
+          "price": 2737,
+          "imageUrl": "https://m.media-amazon.com/images/I/71H-s8DVV5L._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "3255efc7-ba23-471d-b65c-ae6481a0f15f",
+          "title": "Magical * Guru Luminasta Gojo \"Yu\" Figure",
+          "description": "",
+          "price": 4380,
+          "imageUrl": "https://m.media-amazon.com/images/I/51bP29Yf0DL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "6240d1dd-a0c9-4b0c-aab8-48458eee69f4",
+          "title": "Magical Battle Kaidama / Busakura Luminasta Fushikuroku Jinbo - Skye and Bondage",
+          "description": "",
+          "price": 2500,
+          "imageUrl": "https://m.media-amazon.com/images/I/41oL8NdNtSL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "8db74f78-ca22-44bf-ad4f-084d6d94abc0",
+          "title": "SEGA - Jujutsu Kaisen Luminasta \"Yuji Itadori\" Black Flash Figure",
+          "description": "",
+          "price": 3479,
+          "imageUrl": "https://m.media-amazon.com/images/I/518wUc4-fhL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "276c5fa6-ae0a-4ef4-b3c9-a40fcec91476",
+          "title": "SEGA-Luminasta Jujutsu Kaisen Luminasta Gojo Satoru Massacre Figure, Approximately 10.2 inches (26 cm)",
+          "description": "",
+          "price": 2761,
+          "imageUrl": "https://m.media-amazon.com/images/I/51hsjKc576L._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        }
+      ],
+      "timestamp": "2026-01-22T12:20:36.255Z"
+    },
+    {
+      "productName": "鬼滅の刃 フィギュア",
+      "averagePrice": 2374,
+      "minPrice": 680,
+      "maxPrice": 3900,
+      "searchCount": 15,
+      "cheapestUrl": "https://www.amazon.co.jp",
+      "cheapestTitle": "Bucchimas! Demon Blade Relief Figure Magnet 2",
+      "products": [
+        {
+          "id": "38f9fa0f-4c00-4892-8052-99455cc2328a",
+          "title": "POP UP PARADE Demon Slayer Kyojuro Rengoku Non-Scale Plastic Pre-Painted Complete Figure",
+          "description": "",
+          "price": 3900,
+          "imageUrl": "https://m.media-amazon.com/images/I/517fHUmT7lL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "e4a2d2bc-4490-484b-b2d8-6bc364f652be",
+          "title": "Bucchimas! Demon Blade Relief Figure Magnet 2",
+          "description": "",
+          "price": 680,
+          "imageUrl": "https://m.media-amazon.com/images/I/51apB-no0SL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "c52c429f-1b1b-42b9-8f78-4afa6e22a1f9",
+          "title": "Kamado Nezuko Onemutan Kuno-Shaped Blade Earth Color Version",
+          "description": "",
+          "price": 1198,
+          "imageUrl": "https://m.media-amazon.com/images/I/517G1szwiYL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "7b98b75d-a6ff-424e-b8b7-68f3c14e7469",
+          "title": "Grandista -DOMA- Douma Figure approx. 25 cm",
+          "description": "",
+          "price": 2778,
+          "imageUrl": "https://m.media-amazon.com/images/I/61txbYrrNML._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "152c3d01-4766-46aa-b3a3-cf7d775a65f9",
+          "title": "Anime Demon Slayer Grandista Akaza Akaza Figure",
+          "description": "",
+          "price": 2998,
+          "imageUrl": "https://m.media-amazon.com/images/I/61iczNXew1L._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "d9ba3138-7396-48e9-b629-6453af4a1b29",
+          "title": "Grandista -DOMA- Douma Figure approx. 25 cm",
+          "description": "",
+          "price": 2778,
+          "imageUrl": "https://m.media-amazon.com/images/I/61txbYrrNML._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "958c2a64-5552-4f37-9d03-4b9c8871237c",
+          "title": "Anime \"Demon Slayer\" MAXIMATIC SHINOBU KOCHO",
+          "description": "",
+          "price": 2829,
+          "imageUrl": "https://m.media-amazon.com/images/I/51PlpFFmeZL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "b6c558be-7230-43f3-9ec1-8d5b7a820a26",
+          "title": "Sega Demon Slayer Kamado Nezuko Super Premium Figure SPM",
+          "description": "",
+          "price": 2178,
+          "imageUrl": "https://m.media-amazon.com/images/I/61L-JuYpUIL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "fbb52ca3-1787-4a3f-ba46-82f235b9e385",
+          "title": "Kimono Blade Super Premium Figure Kamato Kojiro SPM Figure",
+          "description": "",
+          "price": 2691,
+          "imageUrl": "https://m.media-amazon.com/images/I/61udsSbJAAL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "cfca9f6a-596f-4a4f-bcf5-b2b4a2d6d3f5",
+          "title": "Demon Slayer (鬼滅の刃) Kyojuro Rengoku Grandista Figure, Approx. 9.4 inches (24 cm)",
+          "description": "",
+          "price": 2191,
+          "imageUrl": "https://m.media-amazon.com/images/I/61iSZ36-IrL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "b1ddd97f-7fd4-4c10-9f8e-c8f9bfe265bc",
+          "title": "POP UP PARADE Demon Slayer Kyojuro Rengoku Non-Scale Plastic Pre-Painted Complete Figure",
+          "description": "",
+          "price": 3900,
+          "imageUrl": "https://m.media-amazon.com/images/I/517fHUmT7lL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "32704dbc-0b57-4835-9506-908e60f43dc4",
+          "title": "Bucchimas! Demon Blade Relief Figure Magnet 2",
+          "description": "",
+          "price": 680,
+          "imageUrl": "https://m.media-amazon.com/images/I/51apB-no0SL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "0d9e5a91-d188-4271-9b6f-d9c922caa964",
+          "title": "Kamado Nezuko Onemutan Kuno-Shaped Blade Earth Color Version",
+          "description": "",
+          "price": 1198,
+          "imageUrl": "https://m.media-amazon.com/images/I/517G1szwiYL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "e6edbb45-92dd-448a-a5c5-cf57b83d08e9",
+          "title": "Grandista -DOMA- Douma Figure approx. 25 cm",
+          "description": "",
+          "price": 2778,
+          "imageUrl": "https://m.media-amazon.com/images/I/61txbYrrNML._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "cbdf4934-a894-4064-99ec-29810e7b356d",
+          "title": "Anime \"Demon Slayer\" MAXIMATIC SHINOBU KOCHO",
+          "description": "",
+          "price": 2829,
+          "imageUrl": "https://m.media-amazon.com/images/I/51PlpFFmeZL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        }
+      ],
+      "timestamp": "2026-01-22T12:51:45.820Z"
+    },
+    {
+      "productName": "僕のヒーローアカデミア フィギュア",
+      "averagePrice": 6568,
+      "minPrice": 1676,
+      "maxPrice": 17300,
+      "searchCount": 14,
+      "cheapestUrl": "https://www.amazon.co.jp",
+      "cheapestTitle": "My Hero Academia Grandista Midoriya Izuku Izuku Figure",
+      "products": [
+        {
+          "id": "65bdf1e7-66ad-4bb4-86d8-1f68e0860ec1",
+          "title": "My Hero Academia The Amazing Heroes DX Izuku Midoriya Overlay Izuku Midoriya Figurine",
+          "description": "",
+          "price": 2674,
+          "imageUrl": "https://m.media-amazon.com/images/I/51WZLae4SEL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "ce394dcb-97dd-40e9-bbc1-c9323a555cec",
+          "title": "TAMASHII NATIONS S.H. Figuarts My Hero Academia Katsuki Bakugo Approx. 5.7 inches (145 mm), PVC & ABS Plastic, Painted Articulated Action Figure",
+          "description": "",
+          "price": 17300,
+          "imageUrl": "https://m.media-amazon.com/images/I/71yhCHkycRL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "e8eeba98-965b-436c-a3a7-f515e8a17083",
+          "title": "My Hero Academia The EVIL VILLAINS PLUS HIMIKO TOGA II Figurine",
+          "description": "",
+          "price": 1980,
+          "imageUrl": "https://m.media-amazon.com/images/I/71K6NkO-a+L._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "f7eaa5bc-990e-46a6-a6e7-2bbffd63b0fe",
+          "title": "My Hero Academia Grandista ALL MIGHT",
+          "description": "",
+          "price": 2680,
+          "imageUrl": "https://m.media-amazon.com/images/I/61g40PZ3utL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "9ded44e1-0934-47fb-9232-e3c3df23c22c",
+          "title": "My Hero Academia Grandista Midoriya Izuku Izuku Figure",
+          "description": "",
+          "price": 1676,
+          "imageUrl": "https://m.media-amazon.com/images/I/61salBWs21L._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "f13ebcd0-7926-4db1-93ce-60923d824b9d",
+          "title": "My Hero Academia The Amazing Heroes DX Izuku Midoriya Overlay Izuku Midoriya Figurine",
+          "description": "",
+          "price": 2674,
+          "imageUrl": "https://m.media-amazon.com/images/I/51WZLae4SEL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "371db7b0-4555-47bb-9cfc-5ce04c6578da",
+          "title": "My Hero Academia The EVIL VILLAINS PLUS HIMIKO TOGA II Figurine",
+          "description": "",
+          "price": 1980,
+          "imageUrl": "https://m.media-amazon.com/images/I/71K6NkO-a+L._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "0353dbdb-6555-47ee-9d5a-2ebaf13bacf1",
+          "title": "My Hero Academia Grandista ALL MIGHT",
+          "description": "",
+          "price": 2680,
+          "imageUrl": "https://m.media-amazon.com/images/I/61g40PZ3utL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "44363ce9-f169-497e-8416-af7d6b9c721a",
+          "title": "TAMASHII NATIONS S.H. Figuarts My Hero Academia Katsuki Bakugo Approx. 5.7 inches (145 mm), PVC & ABS Plastic, Painted Articulated Action Figure",
+          "description": "",
+          "price": 17300,
+          "imageUrl": "https://m.media-amazon.com/images/I/71yhCHkycRL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "6aa4310e-b27a-495b-a59a-d531f6aa6b47",
+          "title": "BellFine My Hero Academia Toga Himiko 1/8 Scale PVC Pre-painted Complete Figure",
+          "description": "",
+          "price": 14988,
+          "imageUrl": "https://m.media-amazon.com/images/I/61LAxGOs8tL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "59ab4b39-e86b-4e8f-b841-e90f22a51b3c",
+          "title": "My Hero Academia GLITTER & GLAMOURS-OCHACO URARAKA & HIMIKO TOGA - Himiko Toga Figure",
+          "description": "",
+          "price": 3170,
+          "imageUrl": "https://m.media-amazon.com/images/I/61x60sWOwcL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "d55b71fd-c7bb-4dc3-8f6e-924202712bce",
+          "title": "My Hero Academia GLITTER&GLAMOURS - Nejire Hado - Wave Distortion Figure",
+          "description": "",
+          "price": 2870,
+          "imageUrl": "https://m.media-amazon.com/images/I/61TCtNrBCYL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "6c27365c-e328-422b-9a15-6d9659e6a498",
+          "title": "My Hero Academia The Amazing Heroes DX Izuku Midoriya Overlay Izuku Midoriya Figurine",
+          "description": "",
+          "price": 2674,
+          "imageUrl": "https://m.media-amazon.com/images/I/51WZLae4SEL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        },
+        {
+          "id": "e3c77175-c0e0-458c-abb3-3f77a8afcff9",
+          "title": "TAMASHII NATIONS S.H. Figuarts My Hero Academia Katsuki Bakugo Approx. 5.7 inches (145 mm), PVC & ABS Plastic, Painted Articulated Action Figure",
+          "description": "",
+          "price": 17300,
+          "imageUrl": "https://m.media-amazon.com/images/I/71yhCHkycRL._AC_UL320_.jpg",
+          "url": "https://www.amazon.co.jp",
+          "source": "amazon"
+        }
+      ],
+      "timestamp": "2026-01-22T13:09:39.930Z"
+    }
+  ],
+  "nextSearchTime": "2026-01-23T05:04:13.730Z",
+  "lastError": null,
+  "isBlocked": false,
+  "blockedUntil": null,
+  "currentProductName": "初音ミク　フィギュア"
+}

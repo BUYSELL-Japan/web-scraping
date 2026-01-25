@@ -1,0 +1,9 @@
+name = "figure-price-scraper"
+compatibility_date = "2024-01-01"
+pages_build_output_dir = "./dist"
+
+# D1 Database binding
+[[d1_databases]]
+binding = "DB"
+database_name = "shopee_db"
+database_id = "4e954e48-18d2-4ddd-a8af-07299906bc1a"
