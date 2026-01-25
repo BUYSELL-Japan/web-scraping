@@ -10,8 +10,8 @@ export const onRequestPost = async (context) => {
         const { item_id } = body;
 
         let query = `
-            INSERT INTO products (item_id, item_name, current_price, stock, image_url, source_url, updated_at, created_at)
-            SELECT item_id, item_name, current_price, stock, image_url, source_url, updated_at, datetime('now')
+            INSERT INTO products (item_id, item_name, current_price, stock, image_url, image_url_list, source_url, updated_at, created_at)
+            SELECT item_id, item_name, current_price, stock, image_url, image_url_list, source_url, updated_at, datetime('now')
             FROM scraping_staging
         `;
         const params = [];
@@ -27,6 +27,7 @@ export const onRequestPost = async (context) => {
                 current_price = excluded.current_price,
                 stock = excluded.stock,
                 image_url = excluded.image_url,
+                image_url_list = excluded.image_url_list,
                 source_url = excluded.source_url,
                 updated_at = excluded.updated_at
         `;
