@@ -42,14 +42,14 @@ export const onRequestPost = async (context) => {
 
         // フロントエンド (App.jsx) が期待する形式にデータを変換（マッピング）
         const mappedProducts = results.results.map(p => {
-            // ShopeeのURL生成ロジック（物理名は source_url または item_id/shop_id から生成）
+            // ShopeeのURL生成ロジック（物理名は source_url または shopee_item_id/shop_id から生成）
             let url = p.source_url || '';
-            if (!url && p.shop_id && p.item_id) {
-                url = `https://shopee.tw/product/${p.shop_id}/${p.item_id}`;
+            if (!url && p.shop_id && p.shopee_item_id) {
+                url = `https://shopee.tw/product/${p.shop_id}/${p.shopee_item_id}`;
             }
 
             return {
-                id: p.item_id || p.id.toString(),
+                id: p.shopee_item_id || p.id.toString(),
                 title: p.item_name || '',
                 price: p.current_price || 0,
                 imageUrl: p.image_url || '',

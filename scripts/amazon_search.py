@@ -119,10 +119,10 @@ async def scrape_amazon_detail(url):
 
             # ASIN抽出
             asin_match = re.search(r'/(?:dp|gp/product)/([A-Z0-9]{10})', url)
-            item_id = asin_match.group(1) if asin_match else f"AMZ-{random.randint(1000,9999)}"
+            shopee_item_id = asin_match.group(1) if asin_match else f"AMZ-{random.randint(1000,9999)}"
 
             result = {
-                "item_id": item_id,
+                "shopee_item_id": shopee_item_id,
                 "item_name": title,
                 "price": price,
                 "stock": stock_num,

@@ -26,12 +26,12 @@ export const onRequestPost = async (context) => {
 
     try {
         const body = await request.json();
-        const { item_id, price, stock } = body;
+        const { shopee_item_id, price, stock } = body;
 
-        if (!item_id) {
+        if (!shopee_item_id) {
             return new Response(JSON.stringify({
                 success: false,
-                error: 'item_id is required'
+                error: 'shopee_item_id is required'
             }), {
                 status: 400,
                 headers: { 'Content-Type': 'application/json' }
@@ -39,15 +39,13 @@ export const onRequestPost = async (context) => {
         }
 
         // 商品が存在するか確認しつつ更新
-        // 文脈から、実際のカラム名が price ではない可能性があるため
-        // まずは一般的な名称を試みますが、エラーハンドリングを強化します
         const stmt = env.DB.prepare(`
             UPDATE products 
             SET current_price = ?, stock = ?, updated_at = datetime('now')
-            WHERE item_id = ?
+            WHERE shopee_item_id = ?
         `);
 
-        const result = await stmt.bind(price, stock, item_id).run();
+        const result = await stmt.bind(price, stock, shopee_item_id).run();
 
         if (result.meta.changes === 0) {
             return new Response(JSON.stringify({

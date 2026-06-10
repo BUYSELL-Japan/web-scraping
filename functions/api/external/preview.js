@@ -20,13 +20,13 @@ export const onRequestPost = async (context) => {
         const items = Array.isArray(body) ? body : [body];
 
         for (const item of items) {
-            const { item_id, price, stock, item_name, image_url, image_url_list, source_url, source } = item;
+            const { shopee_item_id, price, stock, item_name, image_url, image_url_list, source_url, source } = item;
 
             // ステージングテーブルへ保存 (UPSERT)
             await env.DB.prepare(`
-                INSERT INTO scraping_staging (item_id, item_name, current_price, stock, image_url, image_url_list, source_url, source, updated_at)
+                INSERT INTO scraping_staging (shopee_item_id, item_name, current_price, stock, image_url, image_url_list, source_url, source, updated_at)
                 VALUES (?, ?, ?, ?, ?, ?, ?, ?, datetime('now'))
-                ON CONFLICT(item_id) DO UPDATE SET
+                ON CONFLICT(shopee_item_id) DO UPDATE SET
                     item_name = excluded.item_name,
                     current_price = excluded.current_price,
                     stock = excluded.stock,
@@ -35,7 +35,16 @@ export const onRequestPost = async (context) => {
                     source_url = excluded.source_url,
                     source = excluded.source,
                     updated_at = datetime('now')
-            `).bind(item_id, item_name || null, price, stock, image_url || null, image_url_list || null, source_url || null, source || 'amazon').run();
+            `).bind(
+                shopee_item_id ?? null,
+                item_name ?? null,
+                price ?? 0,
+                stock ?? 0,
+                image_url ?? null,
+                image_url_list ?? null,
+                source_url ?? null,
+                source ?? 'amazon'
+            ).run();
         }
 
         return new Response(JSON.stringify({ success: true, message: `${items.length} items staged` }), {
@@ -56,7 +65,7 @@ export const onRequestGet = async (context) => {
         // ステージングデータと、現在の本番データを結合して取得
         const results = await env.DB.prepare(`
             SELECT 
-                s.item_id,
+                s.shopee_item_id,
                 s.item_name as new_name,
                 s.current_price as new_price,
                 s.stock as new_stock,
@@ -68,7 +77,7 @@ export const onRequestGet = async (context) => {
                 p.current_price as old_price,
                 p.stock as old_stock
             FROM scraping_staging s
-            LEFT JOIN products p ON s.item_id = p.item_id
+            LEFT JOIN products p ON s.shopee_item_id = p.shopee_item_id
             ORDER BY s.updated_at DESC
         `).all();
 

@@ -7,22 +7,22 @@ export const onRequestPost = async (context) => {
 
     try {
         const body = await request.clone().json().catch(() => ({}));
-        const { item_id } = body;
+        const { shopee_item_id } = body;
 
         let query = `
-            INSERT INTO products (item_id, item_name, current_price, stock, image_url, image_url_list, source_url, updated_at, created_at)
-            SELECT item_id, item_name, current_price, stock, image_url, image_url_list, source_url, updated_at, datetime('now')
+            INSERT INTO products (shopee_item_id, item_name, current_price, stock, image_url, image_url_list, source_url, updated_at, created_at)
+            SELECT shopee_item_id, item_name, current_price, stock, image_url, image_url_list, source_url, updated_at, datetime('now')
             FROM scraping_staging
         `;
         const params = [];
 
-        if (item_id) {
-            query += " WHERE item_id = ?";
-            params.push(item_id);
+        if (shopee_item_id) {
+            query += " WHERE shopee_item_id = ?";
+            params.push(shopee_item_id);
         }
 
         query += `
-            ON CONFLICT(item_id) DO UPDATE SET
+            ON CONFLICT(shopee_item_id) DO UPDATE SET
                 item_name = excluded.item_name,
                 current_price = excluded.current_price,
                 stock = excluded.stock,
@@ -36,8 +36,8 @@ export const onRequestPost = async (context) => {
         await env.DB.prepare(query).bind(...params).run();
 
         // 2. ステージングから削除
-        if (item_id) {
-            await env.DB.prepare("DELETE FROM scraping_staging WHERE item_id = ?").bind(item_id).run();
+        if (shopee_item_id) {
+            await env.DB.prepare("DELETE FROM scraping_staging WHERE shopee_item_id = ?").bind(shopee_item_id).run();
         } else {
             await env.DB.prepare("DELETE FROM scraping_staging").run();
         }

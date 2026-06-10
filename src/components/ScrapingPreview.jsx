@@ -27,17 +27,17 @@ function ScrapingPreview({ onUpdateComplete }) {
         fetchPreview()
     }, [])
 
-    const handleConfirmOne = async (itemId) => {
-        setUpdatingIds(prev => new Set(prev).add(itemId))
+    const handleConfirmOne = async (shopeeItemId) => {
+        setUpdatingIds(prev => new Set(prev).add(shopeeItemId))
         try {
             const response = await fetch('/api/confirm-update', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ item_id: itemId })
+                body: JSON.stringify({ shopee_item_id: shopeeItemId })
             })
             const result = await response.json()
             if (result.success) {
-                setPreviewData(prev => prev.filter(item => item.item_id !== itemId))
+                setPreviewData(prev => prev.filter(item => item.shopee_item_id !== shopeeItemId))
                 if (onUpdateComplete) onUpdateComplete()
             } else {
                 throw new Error(result.error)
@@ -47,7 +47,7 @@ function ScrapingPreview({ onUpdateComplete }) {
         } finally {
             setUpdatingIds(prev => {
                 const next = new Set(prev)
-                next.delete(itemId)
+                next.delete(shopeeItemId)
                 return next
             })
         }
@@ -78,10 +78,10 @@ function ScrapingPreview({ onUpdateComplete }) {
                 {previewData.map(item => {
                     const diff = item.old_price ? item.new_price - item.old_price : 0;
                     const diffColor = diff > 0 ? '#ff4d4d' : diff < 0 ? '#4d79ff' : '#888';
-                    const isUpdating = updatingIds.has(item.item_id);
+                    const isUpdating = updatingIds.has(item.shopee_item_id);
 
                     return (
-                        <div key={item.item_id} className="preview-card" style={{
+                        <div key={item.shopee_item_id} className="preview-card" style={{
                             backgroundColor: 'var(--card-bg)',
                             borderRadius: '12px',
                             overflow: 'hidden',
@@ -142,7 +142,7 @@ function ScrapingPreview({ onUpdateComplete }) {
 
                                 <div style={{ marginTop: 'auto' }}>
                                     <button
-                                        onClick={() => handleConfirmOne(item.item_id)}
+                                        onClick={() => handleConfirmOne(item.shopee_item_id)}
                                         className="btn btn-primary"
                                         disabled={isUpdating}
                                         style={{ width: '100%', padding: '0.5rem' }}
